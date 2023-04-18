@@ -3,7 +3,7 @@
 # vim: ts=2 sw=2 ft=bash noet
 
 # source the Nos framework
-. /opt/nanobox/nos/common.sh
+. /opt/microbox/nos/common.sh
 
 # initialize Nos with the original arguments
 nos_init "$@"
@@ -21,7 +21,7 @@ run.config:
     - $(nos_code_dir)/vendor/bundle/.bin
     - $(nos_code_dir)/node_modules/.bin
 END
-if [[ $(grep -c build_triggers /opt/nanobox/hooks/lib/boxfile.rb) -gt 1 ]]; then
+if [[ $(grep -c build_triggers /opt/microbox/hooks/lib/boxfile.rb) -gt 1 ]]; then
 	cat <<-END
 	  build_triggers:
 	    - Gemfile

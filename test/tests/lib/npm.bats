@@ -1,7 +1,7 @@
 # Test the npm functionality
 
 # source the Nos framework
-. /opt/nanobox/nos/common.sh
+. /opt/microbox/nos/common.sh
 
 # source the nos test helper
 . util/nos.sh

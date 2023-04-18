@@ -11,12 +11,12 @@ engine_dir="$(dirname ${test_dir})"
 
 docker run \
   -it \
-  -u=gonano \
+  -u=gomicro \
   --privileged=true \
   --workdir=/test \
   -e "PATH=$(path)" \
   --volume=${test_dir}/:/test \
   --volume=${engine_dir}/:/engine \
   --rm \
-  nanobox/build \
+  mubox/build \
   /bin/bash
