@@ -1,6 +1,6 @@
 # Middleman
 
-This is a generic Middleman engine used to launch Middleman apps on [Nanobox](http://nanobox.io). The engine automatically creates a web component named `web.middleman` that includes an Nginx webserver. The engine auto-detects your Middleman `build_dir` specified in your `config.rb`.
+This is a generic Middleman engine used to launch Middleman apps on [Microbox](http://microbox.cloud). The engine automatically creates a web component named `web.middleman` that includes an Nginx webserver. The engine auto-detects your Middleman `build_dir` specified in your `config.rb`.
 
 ## Usage
 To use this engine, specify the engine in your boxfile.yml:
@@ -17,7 +17,7 @@ run.config:
 
 ## Basic Configuration Options
 
-This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox.
+This engine exposes configuration options through the [boxfile.yml](https://docs.microbox.cloud/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox.
 
 #### Overview of Basic Boxfile Configuration Options
 ```yaml
@@ -30,7 +30,7 @@ run.config:
 ```
 
 ##### Quick Links
-[Ruby Settings](#ruby-settings)   
+[Ruby Settings](#ruby-settings)
 [Web Server Settings](#web-server-settings)
 
 ### Ruby Settings
@@ -75,4 +75,4 @@ run.config:
 ---
 
 ## Help & Support
-This is a generic (non-framework-specific) Middleman engine provided by [Nanobox](http://nanobox.io). If you need help with this engine, you can reach out to us in the [#nanobox IRC channel](http://webchat.freenode.net/?channels=nanobox). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/nanobox-io/nanobox-engine-ruby/issues/new).
+This is a generic (non-framework-specific) Middleman engine provided by [Microbox](http://microbox.cloud). If you need help with this engine, you can reach out to us in the [Microbox Discord](https://discord.gg/MCDdHfy). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-ruby/issues/new).
